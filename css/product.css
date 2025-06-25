@@ -89,6 +89,7 @@ h2{
     align-items: center;
     flex-direction: column;
     gap: 12px;
+    background-color: white(216, 241, 241);
 }
 .card:hover{
      transform: translateY(-5px);
@@ -142,6 +143,7 @@ h1{
     align-items: center;
     flex-direction: column;
     gap: 12px;
+    background-color: white;
 }
 .card2:hover{
      transform: translateY(-5px);
@@ -190,6 +192,7 @@ h1{
     align-items: center;
     flex-direction: column;
     gap: 12px;
+    background-color: white;
 }
 .card3:hover{
      transform: translateY(-5px);
@@ -238,6 +241,7 @@ h1{
     flex-direction: column;
     border-radius: 14px;
     gap: 12px;
+    background-color: white;
 }
 .card4:hover{
      transform: translateY(-5px);
