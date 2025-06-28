@@ -25,6 +25,53 @@ header h1 {
     font-size: 70px;
     /* font-weight: bold; */
 }
+.typewriter p::before {
+    content: "Your favorite place for all things computer";
+    color: white;
+    animation: words 20s infinite;
+}
+.typewriter p::after {
+    content: "";
+    position: absolute;
+    width: calc(100% + 8px);
+    height: 100%;
+    /* background-color: rgb(122, 178, 105); */
+    /* border-left: 2px solid; */
+    right: -8px;
+    /* color: green; */
+    animation: cursor 0.8s infinite, typing 25s steps(14) infinite;
+}
+.typewriter p {
+    position: relative;
+}
+.typewriter {
+      font-size: 32px;
+      font-family: Arial, Helvetica, sans-serif;
+      white-space: nowrap;
+      overflow: hidden;
+      border-right: 3px solid rgb(61, 61, 61);
+      width: 0;
+    /* content: ""; */
+    /* position: absolute; */
+    /* width: calc(100% + 8px); */
+    /* height: 100%; */
+    /* background-color: rgb(122, 178, 105); */
+    /* border-left: 2px solid;
+    right: -8px; */
+    /* color: green; */
+    animation: cursor 0.1s infinite, typing 25s steps(14) infinite;
+      /* animation: typing 3s steps(30, end) forwards, blink 0.7s step-end infinite; */
+    }
+
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 33.3ch } /* ចំនួនអក្សរ */
+    }
+
+    @keyframes blink {
+      from, to { border-color: transparent }
+      50% { border-color: orange }
+    }
 
 header button {
     font-weight: bold;
@@ -52,7 +99,6 @@ header button:hover {
     gap: 16px;
     color: rgb(99, 99, 99);
 }
-
 .content p {
     width: 70%;
     text-align: center;
