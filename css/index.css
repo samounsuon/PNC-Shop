@@ -29,7 +29,7 @@ header h1 {
 header button {
     font-weight: bold;
     background-color: white;
-    color: blue;
+    color: teal;
     border: none;
     padding: 14px 30px;
     font-size: 16px;
@@ -125,7 +125,7 @@ header button:hover {
 }
 .Oder:hover{
     /* color: black; */
-    background-color: blue;
+    background-color: teal;
 }
 .card-content p{
     text-align: center;
