@@ -342,9 +342,10 @@ h1{
     height: 40px;
     border-radius: 4px;
     transition: 0.2s;
+    background-color: #243f5c;
 }
 .card5 button:hover{
-    background-color: aquamarine;
+    background-color: #4b82bd;
     transform: translateY(-5px);
     cursor: pointer;
 }
