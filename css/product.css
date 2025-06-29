@@ -89,7 +89,7 @@ h2{
     align-items: center;
     flex-direction: column;
     gap: 12px;
-    background-color: white;
+    background-color: white(216, 241, 241);
 }
 .card:hover{
      transform: translateY(-5px);
