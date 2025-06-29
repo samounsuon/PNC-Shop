@@ -6,9 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home page</title>
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 </head>
 
 <body>
+    <nav>
+      <nav class="navbar">
+        <img src="./image/logo.png" alt="" />
+        <ul class="link-">
+          <li><a id="active" href="#">Home</a></li>
+          <li><a href=""></a>Product</li>
+          <li><a href=""></a>About</li>
+          <li><a href=""></a>Contact</li>
+        </ul>
+        <div class="search">
+          <div class="search-input">
+              <input class="input-mail"type="text"name="email"id="email"placeholder="Search" />
+              <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+      </nav>
+    </nav>
     <header>
         <h1>Welcome to My Shop</h1>
         <p>Your favorite place for all things computer</p>
@@ -134,6 +159,52 @@
     </div>
     </div>
     <hr>
+
+    <footer>
+        <div class="footer-container">
+            <div class="img-info">
+              <div class="img-h3">
+                <img id="img-f" src="./image/logo.png" alt="" />
+                <h3>PNC Shop</h3>
+              </div>
+              <div class="mul">
+                <div class="navbar-2">
+                  <h3>About us</h3>
+                  <div class="h-p-a-c">
+                    <a href="">Home</a>
+                    <a href="">Product</a>
+                    <a href="">About</a>
+                    <a href="">Contact</a>
+                  </div>
+                </div>
+                <div class="navbar-2">
+                  <h3>Computer brands</h3>
+                  <div class="h-p-a-c">
+                    <a href="">ASUS</a>
+                    <a href="">MSI</a>
+                    <a href="">DELL</a>
+                    <a href="">ACER</a>
+                  </div>
+                </div>
+                <div class="navbar-2">
+                  <h3>Contact us</h3>
+                  <div class="Contact-us">
+                    <a id="fac"><i class="fa-brands fa-facebook-f"> </i></a>
+                    <a id="twi"><i class="fa-brands fa-twitter"> </i></a>
+                    <a id="you"><i class="fa-brands fa-youtube"> </i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="location-call-gmial">
+                <p>BP 511, Phum Tropeang Chhuk (Borey Sorla) Sangtak, Street 371, Phnom Penh</p>
+                <p>+97 777 9999 / +71 111 7777</p>
+                <p>pncshop9977@mail.com</p>
+            </div>
+            <hr id="hr-2" />
+            <p id="our-web">&copy; 2025 PNC Shop. All rights reserved.</p>
+        </div>
+    </footer>
 
 </body>
 
