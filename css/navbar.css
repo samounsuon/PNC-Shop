@@ -1,19 +1,20 @@
 body{
-    background: #e3e0e0;
+
     margin: 0px;
     padding: 0px;
     font-family: sans-serif ;
 }
 #active{
-    color: white;
+    color: rgb(255, 225, 0);
     text-decoration: none;
+
 }
 #active:hover{
     color: rgb(255, 225, 0);
     text-decoration: underline;
 }
 .navbar{
-    background: teal;
+    background: #091f2a;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -35,13 +36,30 @@ img{
     gap: 30px;
     font-size: 26px; 
 }
+nav>ul>li>a{
+    color: white ;
+    text-decoration: none;
+}
 #hr-1{
+
     width: 50%;
+    position: relative;
+    /* left: 40%;
+     */
+     margin: auto;
+     margin-bottom: 20px;
+     border: solid 1px;
+     color: white;
 }
 #hr-2{
     color: #60676b;
-    width: 70%;
-    margin-top: 30px;
+    width: 88%;
+   
+    /* margin-left: 80px; */
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
 }
 .img-info{
     display: flex;
@@ -135,18 +153,18 @@ i{
 input{
     border-radius: 20px;
     height: 30px;
-    width: 200px;
+    width: 230px;
     border: teal;
     transition: 0.2s;
 
 }
-input:hover{
+/* input:hover{
     border-radius: 20px;
     height: 30px;
     width: 230px;
     border: none;
  
-}
+} */
 .location-call-gmial {
     display: flex;
     justify-content: center;

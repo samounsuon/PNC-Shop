@@ -3,25 +3,6 @@
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
-
-/* nav{
-    background-color: brown;
-    padding: 30px;
-    position:sticky;
-    top: 0;
-}
-nav ul{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    list-style: none;
-}
-nav ul li a{
-    color: aliceblue;
-    text-decoration: none;
-    font-size: 20px;
-} */
 header{
     background-image: url(../images/computer\ banner\ 2.jpg);
     background-size: cover;
@@ -98,6 +79,7 @@ h2{
     display: flex;
     gap: 34px;
     justify-content: center;
+    
 }
 .card {
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
@@ -109,8 +91,14 @@ h2{
     align-items: center;
     flex-direction: column;
     gap: 12px;
+<<<<<<< HEAD
     background-color: white(216, 241, 241);
     transition: 0.2s;
+=======
+    background-color: white;
+    transition: 0.2s;
+
+>>>>>>> d2bd77601bef9d76ec1e18d5fa35ee07248ee0ba
 }
 .card:hover{
      transform: translateY(-5px);
@@ -360,19 +348,3 @@ h1{
     transform: translateY(-5px);
     cursor: pointer;
 }
-hr{
-    width: 40%;
-    margin-left: 30%;
-}
-/* footer{
-    background-color: brown;
-    width: 100%;
-    height: 40px;
-    color: aliceblue;
-    display: flex;
-    justify-content: center;
-    margin-top: 40px;
-}
-footer h3{
-    margin-top: 10px;
-} */
