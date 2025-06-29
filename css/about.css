@@ -28,7 +28,7 @@ header p{
     font-size: 18px;
 }
 header .btn{
-    color: #243f5c;
+    color: #091f2a;
     padding: 12px 30px;
     border-radius: 8px;
     border: none;
@@ -77,7 +77,7 @@ header .btn:hover{
     display: block;
     width: 30px;
     height: 04px;
-    background-color: #243f5c;
+    background-color: #091f2a;
     margin-bottom: 12px;
 }
 .about-us {
@@ -103,7 +103,7 @@ header .btn:hover{
     padding: 10px 26px;
     border: none;
     border-radius: 24px;
-    background-color: #243f5c;
+    background-color: #091f2a;
     color: white;
     font-size: 18px;
     font-weight: 500;
@@ -219,7 +219,9 @@ header .btn:hover{
 }
 .card-profile{
     text-align: center;
-    background-color: #446180;
+    /* background-color: #446180; */
+    /* background-color: #091f2a; */
+    background-color: #243f5c;
     width: 230px;
     height: auto;
     padding: 20px;
@@ -228,7 +230,8 @@ header .btn:hover{
     transition: 0.3s ease;
 }
 .card-profile:hover{
-    background-color: #243f5c;
+    /* background-color: #243f5c; */
+    background-color: #446180;
 }
 .card-img img{
     width: 150px;

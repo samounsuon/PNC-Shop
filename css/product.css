@@ -49,13 +49,13 @@ header p {
 }
 
 header button {
-    padding: 12px 40px;
-    border-radius: 30px;
+    padding: 12px 24px;
+    border-radius: 8px;
     border: none;
     font-weight: bold;
     font-size: 20px;
     cursor: pointer;
-    margin-top: 5%;
+    margin-top: 20px;
 }
 
 header button:hover {
