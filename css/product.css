@@ -342,7 +342,7 @@ h1{
     height: 40px;
     border-radius: 4px;
     transition: 0.2s;
-    background-color: #243f5c;
+    background-color: white;
 }
 .card5 button:hover{
     background-color: #4b82bd;
