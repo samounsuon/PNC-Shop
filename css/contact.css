@@ -60,9 +60,8 @@ header {
     color: #CCCCCC;
     font-size: 15px;
 }
-.contact-info li{
-    /* padding-top: 40px; */
-}
+
+
 .personal {
     width: 50%;
     display: flex;
