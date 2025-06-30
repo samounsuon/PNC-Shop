@@ -40,7 +40,8 @@ header .btn{
     
 }
 header .btn:hover{
-    text-decoration: underline;
+    background-color: #243f5c;
+    color: white;
 }
 .container{
     display: flex;
@@ -58,9 +59,14 @@ header .btn:hover{
     font-size: 28px;
     font-weight: 600;
     margin-bottom: 8px;
+    color: #000;
 }
 .content-1 p{
     font-size: 18px;
+}
+.logo-pnc img{
+    width: 300px;
+    height: 120px;
 }
 
 .content-1{
