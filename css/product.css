@@ -343,6 +343,7 @@ h1{
     border-radius: 4px;
     transition: 0.2s;
     background-color: white;
+    border: none;
 }
 .card5 button:hover{
     background-color: #4b82bd;

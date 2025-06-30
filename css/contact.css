@@ -3,11 +3,14 @@
     padding: 0;
     margin: 0;
 }
+#mail{
+    border-radius: 20px;
+}
 .container{
     background-image: url('https://cdn.pixabay.com/photo/2019/11/14/15/52/keyboard-4626463_1280.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 260px;
+    height: 295px;
     justify-content: flex-start;
     align-content: center;
     padding-left: 300px;
@@ -15,8 +18,9 @@
     padding-top: 20px; 
     
 } 
-.tittle h1{
+.container h1{
     color: whitesmoke;
+    font-size: 50px;
 }
 .container p{
     color: #CCCCCC;
@@ -24,7 +28,7 @@
     padding-top: 20px;
 }
 header {
-    background-color:#12143A;
+    background-color:#091f2a;
     height: 750px;
     width:100%;
     display: flex;
@@ -66,8 +70,6 @@ header {
     display: flex;
     flex-direction: column;
     gap: 12px;
-    
-   
 }
 .company {
     width: 50%;
@@ -77,14 +79,20 @@ header {
 }
 .form-input {
     border-radius: 10px;
-    width: 40%;
-    height: 75%;
+    width: 50%;
+    height: 80%;
     box-shadow: 1px 1px 20px rgba(3, 0, 0, 0.1);
     background-color: white;
     margin-left: -100px;
     margin-right: 200px;
-    margin-top: 90px;
+    margin-top: 75px;
     margin-bottom: 50px;
+}
+.input-name,
+.input-mail,
+.input-phone,
+.input-message {
+    border-radius: 0;
 }
 .form-input p{
     font-size: 20px;
@@ -99,6 +107,7 @@ header {
     flex-wrap: wrap;
     margin: auto;
 }
+
 .form-input .contact-form p {
     text-align: center;
     margin-bottom: 22px;
@@ -107,8 +116,8 @@ header {
 .name label {
     display: block;
     margin-bottom: 5px;
-}
 
+}
 .form-input .contact-form .name .user-info {
     display: flex;
     gap: 10px;
@@ -117,6 +126,7 @@ header {
     width: 50%;
     padding: 10px;
     border: 1px solid #ccc;
+    
 }
 
 .mail {
@@ -125,18 +135,20 @@ header {
 .mail label {
     display: block;
     margin-bottom: 5px;
+    
 }
 .mail .input-mail {
-    width: 93%;
+    width: 94%;
     padding: 10px;
     border: 1px solid #ccc;  
+    
 }
 .phone label {
     display: block;
     margin-bottom: 5px;
 }
 .phone .input-phone {
-    width: 93%;
+    width: 94%;
     padding: 10px;
     border: 1px solid #ccc;
 }
@@ -148,12 +160,13 @@ textarea {
     resize: none;
 }
 .message .input-message {
-    width: 87%;
+    width: 89%;
     padding: 20px;
     border: 1px solid #ccc;
 }
+
 .submit-btn {
-    background-color: #243f5c;
+    background-color: #12143A;
     color: white;
     border: none;
     padding: 10px 30px;
@@ -163,11 +176,93 @@ textarea {
     transition: background-color 0.3s ease;
     align-self: flex-start;
     width: 100px;
+    margin-bottom: 200px;
 }
 
 .submit-btn:hover{
-    transform: scale(1.1);
-        transition: 0.3s;
+    background-color: #050b7c;
+} 
+.content {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-bottom: 40px;
+    height: 700px;
+    width: 100%;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+
+.shq {
+    display: flex;
+    margin: auto;
+    width: 86%;
+    gap: 30px;
+}
+.card-shq {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    min-width: 250px;
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    justify-content: space-around;
+    text-align: center;
+    border-radius: 10px;
+  
+}
+.more-info{
+    background-color: #12143A;
+    width: 100%;
+}
+.map-container {
+    width: 90%;
+}
+.map-locate {
+    gap: 20px;
+    display: flex;
+    height: 350px;
+    padding: 0;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-top: 30px;
+}
+.card-shq .material-symbols-outlined {
+    font-size: 70px;
+    color: #243f5c;
+}
+.map-container iframe {
+    width: 100%;
+    height: 400px;
+    display: block;
+    border: none;
+}
+hr {
+    width: 50%;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+hr:hover {
+    transform: translateY(-5px);
+    
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+footer p:hover {
+    text-decoration: underline;
 }
 .content {
     margin-top: 40px;
@@ -199,10 +294,6 @@ textarea {
     justify-content: space-around;
     text-align: center;
     border-radius: 10px;
-}
-.card-shq:hover{
-transform: scale(1.1);
-    transition: 0.3s;
 }
 .more-info{
     background-color: #12143A;
@@ -253,4 +344,4 @@ footer {
 
 footer p:hover {
     text-decoration: underline;
-} 
+}  
