@@ -29,8 +29,8 @@ header p{
 }
 header .btn{
     color: #091f2a;
-    padding: 12px 30px;
-    border-radius: 8px;
+    padding: 12px 24px;
+    border-radius: 4px;
     border: none;
     font-size: 20px;
     font-weight: 550;
@@ -40,7 +40,8 @@ header .btn{
     
 }
 header .btn:hover{
-    text-decoration: underline;
+    background-color: #243f5c;
+    color: white;
 }
 .container{
     display: flex;
@@ -100,7 +101,7 @@ header .btn:hover{
     margin-bottom: 4px;
 }
 .get-in-touch {
-    padding: 10px 26px;
+    padding: 12px 24px;
     border: none;
     border-radius: 24px;
     background-color: #091f2a;
@@ -219,8 +220,6 @@ header .btn:hover{
 }
 .card-profile{
     text-align: center;
-    /* background-color: #446180; */
-    /* background-color: #091f2a; */
     background-color: #243f5c;
     width: 230px;
     height: auto;
