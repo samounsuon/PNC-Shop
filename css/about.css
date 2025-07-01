@@ -5,8 +5,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 header{
-    background-image: url(../image/image\ copy\ 2.png);
-    height: 50vh;
+    margin: 0;
+    padding: 0;
+    background-image: url(../image/new\ banner-5.png);
+    height: 60vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -19,7 +21,7 @@ header{
     color: white;
 }
 header h1{
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 600;
     padding-right: 40px;
 }
