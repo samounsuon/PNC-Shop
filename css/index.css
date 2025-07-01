@@ -29,17 +29,19 @@ header h1 {
 header button {
     font-weight: bold;
     background-color: white;
-    color: teal;
+    /* color: teal; */
     border: none;
-    padding: 14px 30px;
-    font-size: 16px;
+    padding: 12px 24px;
+    font-size: 20px;
+    font-weight: 550;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 4px;
     font-weight: 550px;
+    margin-top: 16px;
 }
 
 header button:hover {
-    background-color: #352c1e;
+    background-color: #243f5c;
     color: white;
 }
 .content {
@@ -114,7 +116,7 @@ header button:hover {
 }
 .Oder{
     border: none;
-    border-radius: 15px;
+    border-radius: 16px;
     width: 100px;
     height: 5vh;
     /* padding: 20px; */
@@ -125,7 +127,8 @@ header button:hover {
 }
 .Oder:hover{
     /* color: black; */
-    background-color: teal;
+    background-color: rgb(243, 243, 138);
+    color: black;
 }
 .card-content p{
     text-align: center;
@@ -201,13 +204,15 @@ header button:hover {
     /* padding: 20px; */
     /* margin: 10px; */
     background-color: green;
+    /* background-color: #243f5c; */
     color: white;
     font-weight: bold;
     align-self: flex-end;
 }
 .Oder-btn:hover{
     /* color: black; */
-    background-color: blue;
+    /* background-color: blue; */
+    background-color: #243f5c;
 }
 #Oder-btn-two{
     align-self: flex-start;
@@ -230,7 +235,8 @@ header button:hover {
 .card-computer-lap{
     margin: auto;
     color: white;
-    background-color: teal;
+    /* background-color: teal; */
+    background-color: #243f5c;
     margin-top: 30px;
     border-radius: 8px 40px 8px 40px;
     width: 80%;
